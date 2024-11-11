@@ -1,0 +1,107 @@
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header styles */
+header {
+  background-color:cyan ;
+  color: blue;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: solidblack;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url("https://www.shutterstock.com/shutterstock/photos/541065139/display_1500/stock-photo-beautiful-abstract-grunge-decorative-light-blue-cyan-painted-stucco-wall-texture-handmade-rough-541065139.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 140px 0;
+  color: black;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+/* Styling for the search box */
+.search-box {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+}
+
+.search-box input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+}
+
+.search-box button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+
+
+/* Footer styles */
+footer {
+  background-color: darkcyan;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+}
